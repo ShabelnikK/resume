@@ -1,12 +1,42 @@
-    body{
-        background-color: bisque;
-    }
+ html {
+     box-sizing: border-box;
+ }
+ *, *::before, *::after {
+     box-sizing: inherit;
+ }
+ body {
+    margin: 0;
+     font-family: 'Source Serif Pro', serif;
+     font-weight: 400;
+ }
+.container {
+    max-width: 1105px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+:root{
+    --black-color: #000000;
+    --blue-color: #5154FF;
+    --grey-color: #6A6A6A;
+    --radial-color: #9694FF;
+    --white-color: #FFFFFF;
+    --lightGrey-color: #F2F2F2;
+}
+ .header {
 
-    img {
+ }
+ .title_head {
+
+ }
+ .name {
+    font-family: 'Great Vibes', cursive;
+     font-size: 23pt;
+ }
+ .buttons{
+
+ }
+ img {
         width: 100%;
         max-width: 250px;
         max-height: 500px;
-    }
-    .header {
-
-    }
+ }
