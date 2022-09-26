@@ -23,6 +23,7 @@
     --lightGrey-color: #F2F2F2;
 }
  .header {
+    margin-top: 19px;
 
  }
  .title_head {
@@ -30,10 +31,30 @@
  }
  .name {
     font-family: 'Great Vibes', cursive;
-     font-size: 23pt;
- }
- .buttons{
+     font-size: 30px;
+     color: black;
 
+ }
+ .buttons1{
+    margin-left: 273.5pt;
+     color: #6A6A6A;
+
+ }
+ .buttons2{
+    margin-left: 21.5pt;
+     color: #6A6A6A;
+ }
+ .buttons3{
+    margin-left: 22pt;
+     color: #6A6A6A;
+ }
+ .buttons4{
+    margin-left: 21.7pt;
+     color: #6A6A6A;
+ }
+ .buttons5{
+    margin-left: 21.4pt;
+     color: #6A6A6A;
  }
  img {
         width: 100%;
