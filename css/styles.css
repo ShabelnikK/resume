@@ -1,24 +1,29 @@
- html {
-     box-sizing: border-box;
- }
- *, *::before, *::after {
-     box-sizing: inherit;
- }
- h1, h2, h3, h4, h5, h6, p{
-     padding: 0;
-     margin: 0;
- }
- body {
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
     margin: 0;
-     font-family: 'Source Serif Pro', serif;
-     font-weight: 400;
- }
+}
+
+body {
+    margin: 0;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 400;
+}
+
 .container {
     max-width: 1105px;
     background-color: chartreuse;
     margin: 0 auto;
 }
-:root{
+
+:root {
     --black-color: #000000;
     --blue-color: #5154FF;
     --grey-color: #6A6A6A;
@@ -26,68 +31,154 @@
     --white-color: #FFFFFF;
     --lightGrey-color: #F2F2F2;
 }
- .header {
-    margin-top: 19px;
 
- }
- .title_head {
+.header {
+    margin-top: 20px;
 
- }
- .name {
+}
+
+.title_head {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.name {
+    width: 555px;
+    height: 30px;
+    margin-top: 4px;
     font-family: 'Great Vibes', cursive;
-     font-size: 30px;
-     color: black;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: black;
 
- }
- .buttons1{
-    margin-left: 273.5pt;
-     color: #6A6A6A;
+}
 
- }
- .buttons2{
-    margin-left: 21.5pt;
-     color: #6A6A6A;
- }
- .buttons3{
-    margin-left: 22pt;
-     color: #6A6A6A;
- }
- .buttons4{
-    margin-left: 21.7pt;
-     color: #6A6A6A;
- }
- .buttons5{
-    margin-left: 21.4pt;
-     color: #6A6A6A;
- }
- .about{
+.experience {
+    width: 81px;
+    height: 20px;
+    margin-top: 9px;
+    font-family: 'Source Serif Pro', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    color: #6A6A6A;
+}
+
+.education {
+    width: 73px;
+    height: 20px;
+    margin-top: 9px;
+    font-family: 'Source Serif Pro', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    color: #6A6A6A;
+}
+
+.caseStudies {
+    width: 89px;
+    height: 20px;
+    margin-top: 9px;
+    font-family: 'Source Serif Pro', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    color: #6A6A6A;
+}
+
+.personalProjects {
+    width: 124px;
+    height: 20px;
+    margin-top: 9px;
+    font-family: 'Source Serif Pro', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    color: #6A6A6A;
+}
+
+.contact {
+    width: 55px;
+    height: 20px;
+    margin-top: 9px;
+    font-family: 'Source Serif Pro', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    color: #6A6A6A;
+}
+
+img {
+    max-width: available;
+
+    padding-left: 25pt;
+}
+
+.about {
     margin-top: 106pt;;
- }
- .info{
+}
 
- }
- .aboutGrid{
+.info {
 
- }
- .aboutGridItem{
+}
 
- }
- .hiMyName{
+.aboutGrid {
+
+}
+
+.aboutGridItem {
+
+}
+
+.hiMyName {
     font-size: 24px;
-     color: #6A6A6A;
- }
- .aboutMe{
+    color: #6A6A6A;
+}
+
+.aboutMe {
     font-size: 36px;
-     font-family: 'Source Serif Pro', serif;
-     font-weight: 700;
-     margin-top: 19pt;
-     padding-right: 180px;
-     line-height: 35pt;
- }
- .downloadResume{
-    margin-top: 19pt;
+    font-family: 'Source Serif Pro', serif;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 26px;
+    line-height: 130%;
+    padding-right: 180px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
 
- }
- img{
+.downloadResume {
+    width: 180px;
+    height: 53px;
+    margin-top: 24px;
+    color: #FFFFFF;
+    font-family: 'Source Serif Pro', serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), radial-gradient(115.69% 100% at 50% 0%, #9694FF 0%, #5154FF 71.35%);
+    border-radius: 5px;
 
- }
+}
+
+.email {
+    margin-top: 25px;
+    font-family: 'Source Serif Pro', serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 18px;
+    color: #5154FF;
+
+}
