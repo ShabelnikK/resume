@@ -19,7 +19,7 @@ body {
 
 .container {
     max-width: 1105px;
-    background-color: chartreuse;
+    background-color: #FFFFFF;
     margin: 0 auto;
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 .header {
-    margin-top: 20px;
+    margin-top: 24px;
 
 }
 
@@ -45,7 +45,7 @@ body {
 .name {
     width: 555px;
     height: 30px;
-    margin-top: 4px;
+    margin-right: auto;
     font-family: 'Great Vibes', cursive;
     font-size: 30px;
     font-style: normal;
@@ -58,7 +58,8 @@ body {
 .experience {
     width: 81px;
     height: 20px;
-    margin-top: 9px;
+    margin-top: 5px;
+    margin-left: auto;
     font-family: 'Source Serif Pro', serif;
     font-style: normal;
     font-weight: 400;
@@ -71,7 +72,8 @@ body {
 .education {
     width: 73px;
     height: 20px;
-    margin-top: 9px;
+    margin-top: 5px;
+    margin-left: auto;
     font-family: 'Source Serif Pro', serif;
     font-style: normal;
     font-weight: 400;
@@ -84,7 +86,8 @@ body {
 .caseStudies {
     width: 89px;
     height: 20px;
-    margin-top: 9px;
+    margin-top: 5px;
+    margin-left: auto;
     font-family: 'Source Serif Pro', serif;
     font-style: normal;
     font-weight: 400;
@@ -97,7 +100,8 @@ body {
 .personalProjects {
     width: 124px;
     height: 20px;
-    margin-top: 9px;
+    margin-top: 5px;
+    margin-left: auto;
     font-family: 'Source Serif Pro', serif;
     font-style: normal;
     font-weight: 400;
@@ -110,7 +114,8 @@ body {
 .contact {
     width: 55px;
     height: 20px;
-    margin-top: 9px;
+    margin-top: 5px;
+    margin-left: auto;
     font-family: 'Source Serif Pro', serif;
     font-style: normal;
     font-weight: 400;
@@ -121,7 +126,7 @@ body {
 }
 
 .about {
-    margin-top: 106pt;;
+    margin-top: 144px;
 }
 
 .info {
@@ -179,7 +184,6 @@ body {
 }
 
 .foto {
-
     width: 189px;
     height: 261px;
     margin-left: auto;
