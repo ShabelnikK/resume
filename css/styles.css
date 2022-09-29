@@ -120,12 +120,6 @@ body {
     color: #6A6A6A;
 }
 
-img {
-    max-width: available;
-
-    padding-left: 25pt;
-}
-
 .about {
     margin-top: 106pt;;
 }
@@ -135,11 +129,13 @@ img {
 }
 
 .aboutGrid {
-
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .aboutGridItem {
-
+    width: 881px;
+    height: 270px;
 }
 
 .hiMyName {
@@ -154,7 +150,6 @@ img {
     font-weight: 700;
     margin-top: 26px;
     line-height: 130%;
-    padding-right: 180px;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -181,4 +176,11 @@ img {
     line-height: 18px;
     color: #5154FF;
 
+}
+
+.foto {
+
+    width: 189px;
+    height: 261px;
+    margin-left: auto;
 }
