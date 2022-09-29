@@ -33,19 +33,20 @@ body {
 }
 
 .header {
-    margin-top: 24px;
 
 }
 
 .title_head {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    height: 78px;
 }
 
 .name {
     width: 555px;
     height: 30px;
-    margin-right: auto;
     font-family: 'Great Vibes', cursive;
     font-size: 30px;
     font-style: normal;
@@ -55,11 +56,12 @@ body {
 
 }
 
-.experience {
-    width: 81px;
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 32px;
+    padding-top: 5px;
     height: 20px;
-    margin-top: 5px;
-    margin-left: auto;
     font-family: 'Source Serif Pro', serif;
     font-style: normal;
     font-weight: 400;
@@ -67,66 +69,31 @@ body {
     line-height: 20px;
     align-items: center;
     color: #6A6A6A;
+}
+
+.experience {
+    width: 81px;
+
 }
 
 .education {
     width: 73px;
-    height: 20px;
-    margin-top: 5px;
-    margin-left: auto;
-    font-family: 'Source Serif Pro', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    align-items: center;
-    color: #6A6A6A;
 }
 
 .caseStudies {
     width: 89px;
-    height: 20px;
-    margin-top: 5px;
-    margin-left: auto;
-    font-family: 'Source Serif Pro', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    align-items: center;
-    color: #6A6A6A;
 }
 
 .personalProjects {
     width: 124px;
-    height: 20px;
-    margin-top: 5px;
-    margin-left: auto;
-    font-family: 'Source Serif Pro', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    align-items: center;
-    color: #6A6A6A;
 }
 
 .contact {
     width: 55px;
-    height: 20px;
-    margin-top: 5px;
-    margin-left: auto;
-    font-family: 'Source Serif Pro', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    align-items: center;
-    color: #6A6A6A;
 }
 
 .about {
-    margin-top: 144px;
+
 }
 
 .info {
@@ -136,32 +103,47 @@ body {
 .aboutGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 35px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    align-items: center;
 }
 
 .aboutGridItem {
     width: 881px;
     height: 270px;
+
 }
 
 .hiMyName {
+    width: 238px;
+    padding-bottom: 24px;
     font-size: 24px;
+    line-height: 31px;
     color: #6A6A6A;
 }
 
 .aboutMe {
+    padding-bottom: 24px;
     font-size: 36px;
     font-family: 'Source Serif Pro', serif;
     font-style: normal;
     font-weight: 700;
-    margin-top: 26px;
-    line-height: 130%;
+    line-height: 47px;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.myMemoji{
+    width: 189px;
+    height: auto;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-right: 0;
 }
 
 .downloadResume {
     width: 180px;
     height: 53px;
-    margin-top: 24px;
     color: #FFFFFF;
     font-family: 'Source Serif Pro', serif;
     font-style: italic;
@@ -171,20 +153,49 @@ body {
     border-radius: 5px;
 
 }
-
+.howConnectWithMe{
+    width: 444px;
+    height: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 24px;
+    padding-top: 24px;
+}
 .email {
-    margin-top: 25px;
+    width: 180px;
     font-family: 'Source Serif Pro', serif;
     font-style: italic;
     font-weight: 900;
     font-size: 16px;
     line-height: 18px;
     color: #5154FF;
-
 }
-
-.foto {
-    width: 189px;
-    height: 261px;
-    margin-left: auto;
+.icons{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-column-gap: 24px
+}
+.facebook{
+    width: 20px;
+    height: 20px;
+}
+.figma{
+    width: 20px;
+    height: 20px;
+}
+.github{
+    width: 20px;
+    height: 20px;
+}
+.telegram{
+    width: 20px;
+    height: 20px;
+}
+.vk{
+    width: 20px;
+    height: 20px;
+}
+.tikTok{
+    width: 20px;
+    height: 20px;
 }
