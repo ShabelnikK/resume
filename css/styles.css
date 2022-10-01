@@ -21,6 +21,7 @@ body {
     max-width: 1105px;
     background-color: #FFFFFF;
     margin: 0 auto;
+
 }
 
 :root {
@@ -31,7 +32,10 @@ body {
     --white-color: #FFFFFF;
     --lightGrey-color: #F2F2F2;
 }
-
+.line{
+    width: 1105px;
+    margin: 0 auto;
+}
 .header {
 
 }
@@ -333,4 +337,22 @@ body {
     grid-template-rows: repeat(3,1fr);
     grid-row-gap: 8px;
     height: 85px;
+}
+
+.caseStudiesGrid{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.caseStudiesGridItem{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 35px;
+    height: 514px;
+}
+
+.myCaseStudies{
+    width: 250px;
+    height: 21px;
+    color: #6A6A6A;
 }
