@@ -45,7 +45,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     padding-top: 24px;
     padding-bottom: 24px;
-    height: 78px;
+    height: 77px;
 }
 
 .name {
@@ -102,7 +102,7 @@ body {
 }
 
 .info {
-
+    height: 510px;
 }
 
 .aboutGrid {
@@ -120,17 +120,24 @@ body {
 
 }
 
+.aboutRowItems{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-row-gap: 24px;
+    height: 270px;
+}
+
 .hiMyName {
     width: 238px;
-    padding-bottom: 24px;
+    height: 31px;
     font-size: 24px;
     line-height: 31px;
     color: #6A6A6A;
 }
 
 .aboutMe {
-    padding-bottom: 24px;
     font-size: 36px;
+    height: 94px;
     font-family: 'Source Serif Pro', serif;
     font-style: normal;
     font-weight: 700;
@@ -164,10 +171,11 @@ body {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 24px;
-    padding-top: 24px;
+
 }
 .email {
     width: 180px;
+    height: 20px;
     font-family: 'Source Serif Pro', serif;
     font-style: italic;
     font-weight: 900;
@@ -177,8 +185,12 @@ body {
 }
 .icons{
     display: grid;
-    grid-template-columns: repeat(6,1fr);
-    grid-column-gap: 24px
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 24px;
+    max-height: 20px;
+}
+.a{
+    height: 20px;
 }
 .facebook{
     width: 20px;
@@ -201,6 +213,9 @@ body {
     height: 20px;
 }
 
+.work{
+    height: 643px;
+}
 .workGrid{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -222,15 +237,7 @@ body {
     display: grid;
     grid-template-rows: repeat(3,1fr);
     grid-row-gap: 50px;
-
-
-}
-.miceTours{
-    display: grid;
-    grid-template-rows: repeat(3,1fr);
-    grid-row-gap: 8px;
-    height: 109px;
-
+    height: 403px;
 }
 .jobTitle{
     height: 24px;
@@ -242,7 +249,6 @@ body {
     line-height: 150%;
 }
 .period{
-    width: 61px;
     height: 21px;
     font-family: 'Source Serif Pro', serif;
     font-style: normal;
@@ -251,15 +257,21 @@ body {
     line-height: 150%;
     color: #6A6A6A;
 }
-.whatIdid{
+.whatIDid{
     width: 820px;
     height: 48px;
     font-family: 'Source Serif Pro', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 24px;
     color: #000000;
+}
+.miceTours{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-row-gap: 8px;
+    height: 109px;
 }
 .supplyShift{
     display: grid;
@@ -267,11 +279,22 @@ body {
     grid-row-gap: 8px;
     height: 109px;
 }
+
 .fotonika{
     display: grid;
     grid-template-rows: repeat(3,1fr);
     grid-row-gap: 8px;
-    height: 109px;
+    height: 85px;
+}
+.whatIDidFotonika{
+    width: 820px;
+    height: 24px;
+    font-family: 'Source Serif Pro', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
 }
 
 .educationGrid{
