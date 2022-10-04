@@ -379,3 +379,47 @@ body {
     height: 21px;
     color: #6A6A6A;
 }
+
+.aboutCaseStudiesItem{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 35px;
+    width: 820px;
+    grid-template-rows: repeat(2,1fr);
+    grid-row-gap: 50px;
+}
+.djing{
+    grid-template-rows: repeat(2,1fr);
+    grid-row-gap: 8px;
+    width: 40px;
+    height: 24px;
+    font-family: 'Source Serif Pro',serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 150%;
+    color: #5154FF;
+
+}
+.djPhoto{
+    width: 327.5px;
+    height: 200px;
+}
+
+.barCulture{
+    grid-template-rows: repeat(2,1fr);
+    grid-row-gap: 8px;
+    width: 392.5px;
+    height: 24px;
+    font-family: 'Source Serif Pro',serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 150%;
+    color: #5154FF;
+}
+
+.barCulturePhoto{
+    width: 327.5px;
+    height: 200px;
+}
