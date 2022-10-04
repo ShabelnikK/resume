@@ -21,7 +21,6 @@ body {
     max-width: 1105px;
     background-color: #FFFFFF;
     margin: 0 auto;
-
 }
 
 :root {
@@ -109,8 +108,8 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 35px;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 119.5px;
+    padding-bottom: 119.5px;
     align-items: center;
 }
 
@@ -213,25 +212,24 @@ body {
     height: 20px;
 }
 
+
+
 .work{
     height: 643px;
 }
 .workGrid{
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 119.5px;
+    padding-bottom: 119.5px;
 }
-
 .workGridItem{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 35px;
     height: 403px;
-
 }
 .workExperience{
     width: 250px;
     color: #6A6A6A
-
 }
 .workPlace{
     display: grid;
@@ -266,6 +264,10 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #000000;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
 }
 .miceTours{
     display: grid;
@@ -279,7 +281,6 @@ body {
     grid-row-gap: 8px;
     height: 109px;
 }
-
 .fotonika{
     display: grid;
     grid-template-rows: repeat(3,1fr);
@@ -297,37 +298,34 @@ body {
     color: #000000;
 }
 
-.educationGrid{
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 
+
+.educationGrid{
+    padding-top: 119.5px;
+    padding-bottom: 119.5px;
+}
 .educationGridItem{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 35px;
     height: 109px;
 }
-
 .myEducation{
     width: 250px;
     color: #6A6A6A
 }
-
 .aboutEducation{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 35px;
     height: 109px;
 }
-
 .bachelor{
     display: grid;
     grid-template-rows: repeat(3,1fr);
     grid-row-gap: 8px;
     height: 85px;
 }
-
 .speciality{
     width: 250px;
     height: 24px;
@@ -338,7 +336,6 @@ body {
     line-height: 150%;
     color: #000000;
 }
-
 .master{
     display: grid;
     grid-template-rows: repeat(3,1fr);
@@ -362,24 +359,23 @@ body {
     height: 85px;
 }
 
-.caseStudiesGrid{
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 
+
+.caseStudiesGrid{
+    padding-top: 119.5px;
+    padding-bottom: 119.5px;
+}
 .caseStudiesGridItem{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 35px;
     height: 514px;
 }
-
 .myCaseStudies{
     width: 250px;
     height: 21px;
     color: #6A6A6A;
 }
-
 .aboutCaseStudiesItem{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -389,6 +385,7 @@ body {
     grid-row-gap: 50px;
 }
 .djing{
+    display: grid;
     grid-template-rows: repeat(2,1fr);
     grid-row-gap: 8px;
     width: 40px;
@@ -399,17 +396,16 @@ body {
     font-size: 16px;
     line-height: 150%;
     color: #5154FF;
-
 }
 .djPhoto{
-    width: 327.5px;
+    width: auto;
     height: 200px;
 }
-
 .barCulture{
+    display: grid;
     grid-template-rows: repeat(2,1fr);
     grid-row-gap: 8px;
-    width: 392.5px;
+    width: 327.5px;
     height: 24px;
     font-family: 'Source Serif Pro',serif;
     font-style: italic;
@@ -418,8 +414,268 @@ body {
     line-height: 150%;
     color: #5154FF;
 }
-
 .barCulturePhoto{
-    width: 327.5px;
+    width: auto;
     height: 200px;
+}
+.comingSoon{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-row-gap: 8px;
+    width: 327.5px;
+    height: 24px;
+    font-family: 'Source Serif Pro',serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 150%;
+    color: #5154FF;
+}
+.comingSoonPhoto{
+    width: auto;
+    height: 200px;
+}
+
+
+
+.personalProjectGrid{
+    padding-top: 119.5px;
+    padding-bottom: 119.5px;
+}
+.personalProjectsGridItem{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 35px;
+    height: 80px;
+}
+.myPersonalProject{
+    width: 250px;
+    height: 21px;
+    color: #6A6A6A;
+}
+.aboutPersonalProjectsItem{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 35px;
+    height: 80px;
+}
+.youTube{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-row-gap: 8px;
+    width: 250px;
+    height: 24px;
+    font-family: 'Source Serif Pro',serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5154FF;
+}
+.instagram{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-row-gap: 8px;
+    width: 250px;
+    height: 24px;
+    font-family: 'Source Serif Pro',serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5154FF;
+}
+.mentoring{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-row-gap: 8px;
+    width: 250px;
+    height: 24px;
+    font-family: 'Source Serif Pro',serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5154FF;
+}
+.aboutPersonalProjectsItemInfo{
+    width: 250px;
+    height: auto;
+    font-family: 'Source Serif Pro',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}
+
+
+.mySuperPowerGrid{
+    padding-top: 119.5px;
+    padding-bottom: 119.5px;
+}
+
+.mySuperPowerGridItem{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 35px;
+    height: 300px;
+}
+.mySuperPower{
+    width: 250px;
+    height: 21px;
+    color: #6A6A6A;
+}
+.mySuperPowerInfo{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 50px;
+    width: 820px;
+    height: 300px;
+    font-family: 'Source Serif Pro',serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+}
+.supplyShiftPowerInfo{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 8px;
+    height: 125px;
+    width: 820px;
+}
+.supplyShiftInfo{
+    height: 96px;
+    font-family: 'Source Serif Pro', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.miceToursPowerInfo{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 8px;
+    height: 125px;
+}
+.miceToursInfo{
+    height: 96px;
+    font-family: 'Source Serif Pro',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    align-items: stretch;
+    flex-grow: 0;
+}
+.company{
+    width: 820px;
+    height: 21px;
+    font-family: 'Source Serif Pro',serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+.contactGrid{
+    padding-top: 119.5px;
+    padding-bottom: 119.5px;
+}
+.contactGridItem{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 35px;
+    height: 171px;
+}
+.myContact{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 24px;
+    height: 171px;
+    gap: 24px;
+}
+.finalText{
+    width: 820px;
+    height: 94px;
+    font-family: 'Source Serif Pro',serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.getInTouch{
+    width: 135px;
+    height: 53px;
+    color: #FFFFFF;
+    font-family: 'Source Serif Pro', serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), radial-gradient(115.69% 100% at 50% 0%, #9694FF 0%, #5154FF 71.35%);
+    border-radius: 5px;
+}
+.finalName{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 35px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: black;
+}
+.firstName{
+    position: absolute;
+    width: 162px;
+    height: 48px;
+    margin-top:48px;
+    margin-left: 6.5px;
+    font-family: 'Great Vibes',cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+    transform: rotate(-17.09deg);
+
+}
+.lastName{
+    position: absolute;
+    width: 197px;
+    height: 48px;
+    margin-top: 73px;
+    margin-left: 47.5px;
+    font-family: 'Great Vibes',cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80%;
+    text-align: center;
+    color: #000000;
+    transform: rotate(-17.09deg);
+
 }
